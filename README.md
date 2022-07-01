@@ -14,15 +14,16 @@
 
 ## DATA CLEANING
 
+![](/picture/1.PNG)
+
 * Check null
 
-![](/picture/1.PNG)
+![](/picture/2.PNG)
 
 * Change data type
  
-![](/picture/2.PNG)
-
-* Data collection period:
+ 
+* Data collection period
 
 Data from 2010-12-29 00:00:00 to 2014-01-28 00:00:00
 
