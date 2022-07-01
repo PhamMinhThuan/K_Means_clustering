@@ -16,11 +16,11 @@
 
 * Check null
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/1.PNG)
+![](/picture/1.PNG)
 
 * Change data type
  
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/2.PNG)
+![](/picture/2.PNG)
 
 * Data collection period:
 
@@ -28,90 +28,90 @@ Data from 2010-12-29 00:00:00 to 2014-01-28 00:00:00
 
 * Productnumber per order
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/3.PNG)
+![](/picture/3.PNG)
 
 * The Category Chart
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/4.PNG)
+![](/picture/4.PNG)
 
 * The Continent Chart
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/5.PNG)
+![](/picture/5.PNG)
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/6.PNG)
+![](/picture/6.PNG)
  
 * Coupon
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/7.PNG)
+![](/picture/7.PNG)
 
 * Boxplot chart
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/7a.PNG)
+![](/picture/7a.PNG)
 
 * Customer feature table
  
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/7b.PNG)
+![](/picture/7b.PNG)
 
 * Age
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/8.PNG)
+![](/picture/8.PNG)
 
 * Gender
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/9.PNG)
+![](/picture/9.PNG)
 
 * Yearly Income
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/10.PNG)
+![](/picture/10.PNG)
 
 * Recency
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/10a.PNG)
+![](/picture/10a.PNG)
 
 * Frequency
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/10b.PNG)
+![](/picture/10b.PNG)
 
 * Monetary
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/10c.PNG)
+![](/picture/10c.PNG)
 
 * YearlyIncome binning
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/11.PNG)
+![](/picture/11.PNG)
 
 Binning Yearly Income into high medium low
 
 ## DATA TRANSFORMATION
 ### A. Labeling Categories with Dummy variables:
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/11b.PNG)
+![](/picture/11b.PNG)
 
 ### B. Skewness:
 
 * Check skewness
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/12.PNG)
+![](/picture/12.PNG)
 
 * Age
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/13.PNG)
+![](/picture/13.PNG)
 
 * Recency
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/14.PNG)
+![](/picture/14.PNG)
 
 * Frequency
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/15.PNG)
+![](/picture/15.PNG)
 
 * Monetary
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/16.PNG)
+![](/picture/16.PNG)
 
 * Create transformation table
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/16a.PNG)
+![](/picture/16a.PNG)
 
 ### C. Data Standardization:
 * Standard scaler
@@ -120,28 +120,28 @@ Binning Yearly Income into high medium low
 #### All features
 * The Elbow Method
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/17.PNG)
+![](/picture/17.PNG)
 
 * Silhouette Coefficient
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/18.PNG)
+![](/picture/18.PNG)
 
 * Segment customer table
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/19.PNG)
+![](/picture/19.PNG)
 
 #### All features, except Age and Gender:
 * The Elbow Method
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/20.PNG)
+![](/picture/20.PNG)
 
 * Silhouette Coefficient
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/21.PNG)
+![](/picture/21.PNG)
 
 * Segment customer table
 
-![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/22.PNG)
+![](/picture/22.PNG)
 
 Monetary: 
 
