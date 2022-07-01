@@ -1,8 +1,10 @@
-# KNN CLUSTERING MODEL 
+# [KNN CLUSTERING MODEL](https://github.com/PhamMinhThuan/KNN_clustering)
+
 ## PROJECT OVERVIEW
 
 * Use Advantureworks DW 2019 dataset, collecting customer feature from this dataset.
 * Create a KNN clustering model to define customer segments.
+
 
 ## DATA MINING
 
@@ -83,6 +85,10 @@ Binning Yearly Income into high medium low
 ## DATA TRANSFORMATION
 ### A. Labeling Categories with Dummy variables:
 
+![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/11b.PNG)
+
+### B. Skewness:
+
 * Check skewness
 
 ![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/12.PNG)
@@ -107,10 +113,10 @@ Binning Yearly Income into high medium low
 
 ![](https://github.com/PhamMinhThuan/KNN_clustering/blob/main/picture/16a.PNG)
 
-### B. Data Standardization:
+### C. Data Standardization:
 * Standard scaler
 
-### C. KNN clustering:
+### D. KNN clustering:
 #### All features
 * The Elbow Method
 
