@@ -6,143 +6,200 @@
 * Create a K-Means clustering model to define customer segments.
 
 
-## DATA MINING
+## DATASET OVERVIEW
 
 * Restore AdvantureWorksDW2019.bak file
 * Run file SQL, create SQL view
 * Use python connect SQL server and show SQL view table.
 
 ## DATA CLEANING
+### Check null and change data type <space><space>
 
 ![](/picture/1.PNG)
 
-* Check null
-
 ![](/picture/2.PNG)
 
-* Change data type
- 
- 
-* Data collection period
+## DATA EXPLORATION
+
+### Data collection period <space><space>
 
 Data from 2010-12-29 00:00:00 to 2014-01-28 00:00:00
-
-* Productnumber per order
+<space><space>
+### Products number per orders <space><space>
 
 ![](/picture/3.PNG)
 
-* The Category Chart
-
+### Category <space><space>
 ![](/picture/4.PNG)
 
-* The Continent Chart
+### Continent <space><space>
 
 ![](/picture/5.PNG)
 
 ![](/picture/6.PNG)
  
-* Coupon
+### Coupon <space><space>
 
 ![](/picture/7.PNG)
 
-* Boxplot chart
+### Boxplots of feature <space><space>
 
 ![](/picture/7a.PNG)
 
-* Customer feature table
+### Customer feature table <space><space>
  
 ![](/picture/7b.PNG)
 
-* Age
+### Age <space><space>
 
 ![](/picture/8.PNG)
 
-* Gender
+Overally, approximately 80 percent of customers are between 35 and 62 year old. <space><space>
+
+### Gender <space><space>
 
 ![](/picture/9.PNG)
 
-* Yearly Income
-
-![](/picture/10.PNG)
-
-* Recency
+### Recency <space><space>
 
 ![](/picture/10a.PNG)
 
-* Frequency
+### Frequency <space><space>
 
 ![](/picture/10b.PNG)
 
-* Monetary
+### Monetary <space><space>
 
 ![](/picture/10c.PNG)
 
-* YearlyIncome binning
+### Yearly Income <space><space>
+
+![](/picture/10.PNG)
 
 ![](/picture/11.PNG)
 
 Binning Yearly Income into high medium low
 
-## DATA TRANSFORMATION
-### A. Labeling Categories with Dummy variables:
+## K-MEANS MODELLING
+### A. North Ameria
 
-![](/picture/11b.PNG)
+![](/picture/12a.PNG)
 
-### B. Skewness:
-
-* Check skewness
-
-![](/picture/12.PNG)
-
-* Age
-
-![](/picture/13.PNG)
-
-* Recency
+### Recency skewness
 
 ![](/picture/14.PNG)
 
-* Frequency
+sqrt skewness -> min <space><space>
 
-![](/picture/15.PNG)
+Choose sqrt method sqrt <space><space>
 
-* Monetary
+### Frequency skewness
 
-![](/picture/16.PNG)
+![](/picture/12.PNG)
 
-* Create transformation table
+boxcox  skewness -> min <space><space>
 
-![](/picture/16a.PNG)
+Choose boxcox method <space><space>
 
-### C. Data Standardization:
-* Standard scaler
+### Monetary skewness
 
-### D. KNN clustering:
-#### All features
-* The Elbow Method
+![](/picture/13.PNG)
+
+boxcox skewness -> min <space><space>
+
+Choose boxcox method <space><space>
+
+### The Elbow Method
 
 ![](/picture/17.PNG)
 
-* Silhouette Coefficient
+### Silhouette Coefficient
 
 ![](/picture/18.PNG)
 
-* Segment customer table
+### Customer segmentation:
 
 ![](/picture/19.PNG)
 
-#### All features, except Age and Gender:
-* The Elbow Method
+### B. Europe
+
+![](/picture/18a.PNG)
+
+### Recency skewness
+
+![](/picture/18.PNG)
+
+sqrt skewness -> min <space><space>
+
+Choose sqrt method sqrt <space><space>
+
+### Frequency skewness
+
+![](/picture/19.PNG)
+
+boxcox  skewness -> min <space><space>
+
+Choose boxcox method <space><space>
+
+### Monetary skewness
 
 ![](/picture/20.PNG)
 
-* Silhouette Coefficient
+boxcox skewness -> min <space><space>
+
+Choose boxcox method <space><space>
+
+### The Elbow Method
 
 ![](/picture/21.PNG)
 
-* Segment customer table
+### Silhouette Coefficient
 
 ![](/picture/22.PNG)
+
+### Customer segmentation:
+
+![](/picture/23.PNG)
+
+### C. Pacific
+
+![](/picture/24a.PNG)
+
+### Recency skewness
+
+![](/picture/24.PNG)
+
+sqrt skewness -> min <space><space>
+
+Choose sqrt method sqrt <space><space>
+
+### Frequency skewness
+
+![](/picture/25.PNG)
+
+boxcox  skewness -> min <space><space>
+
+Choose boxcox method <space><space>
+
+### Monetary skewness
+
+![](/picture/26.PNG)
+
+boxcox skewness -> min <space><space>
+
+Choose boxcox method <space><space>
+
+### The Elbow Method
+
+![](/picture/27.PNG)
+
+### Silhouette Coefficient
+
+![](/picture/28.PNG)
+
+### Customer segmentation:
+
+![](/picture/29.PNG)
 
 Monetary: 
 
