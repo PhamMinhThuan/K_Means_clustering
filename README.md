@@ -114,15 +114,27 @@ Choose boxcox method <space><space>
 
 ### The Elbow Method
 
-![](/picture/17.PNG)
+![](/picture/15.PNG)
 
 ### Silhouette Coefficient
 
-![](/picture/18.PNG)
+![](/picture/16.PNG)
+
+Choose k = 5 <space><space>
 
 ### Customer segmentation:
 
-![](/picture/19.PNG)
+![](/picture/18a.PNG)
+
+4 customer groups: <space><space>
+
+* Cluster 1: high recency, low frequency, high spending, low, medium income, customer churn.
+
+* Cluster 2: Medium recency, low frequency, low spending, low income. 
+
+* Cluster 3+4: Medium recency, low frequency, medium spending, medium, high income.
+
+* Cluster 5: Low recency, high frequency, low spending, low, medium income.
 
 ### B. Europe
 
@@ -160,9 +172,17 @@ Choose boxcox method <space><space>
 
 ![](/picture/22.PNG)
 
+Choose k = 3 <space><space>
+
 ### Customer segmentation:
 
 ![](/picture/23.PNG)
+
+2 customer groups: <space><space>
+
+* Cluster 1 + 3: Medium spending, medium, low income.
+
+* Cluster 2: High spending, high income.
 
 ### C. Pacific
 
@@ -200,52 +220,37 @@ Choose boxcox method <space><space>
 
 ![](/picture/28.PNG)
 
+Choose k = 4 <space><space>
+
 ### Customer segmentation:
 
 ![](/picture/29.PNG)
 
-Monetary:
+4 customer groups: <space><space>
 
-0 - 1000: Low spending
+* Cluster 1: high spending, low, medium income.
 
-1000 - 2000: Medium spending
+* Cluster 2:  medium spending, low income. 
 
-2000: High spending
+* Cluster 3: low spending, medium income.
 
-Frequency:
+* Cluster 4: high spending, high income.
 
-1 - 2: Low frequency
+### Setting:<space><space>
 
-2 - 3: Medium frequency
+Monetary:<space><space>
 
-over 3: High frequency
+* 0 - 1000: Low spending
 
-In Europe:
+* 1000 - 2000: Medium spending
 
-2: Low income, low frequency, high spending, customer churn
+* 2000: High spending
 
-3: Low income, high frequency, medium spending
+Frequency:<space><space>
 
-1: Medium income, high frequency, medium spending
+* 1 - 5: Low frequency
 
-6: High income, high frequency, medium spending
+* 5 - 10: Medium frequency
 
-In North America:
+* over 10: High frequency
 
-2: Low income, low frequency, high spending, customer churn
-
-4: Low income, medium frequency, low spending
-
-1: Medium income, high frequency, medium spending
-
-6: High income, high frequency, medium spending
-
-In Pacific:
-
-2: Low income, low frequency, high spending, customer churn
-
-7: Low income, high frequency, medium spending
-
-5: Medium income, high frequency, high spending
-
-6: High income, high frequency, high spending
