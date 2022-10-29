@@ -1,9 +1,9 @@
-# [KNN CLUSTERING MODEL](https://github.com/PhamMinhThuan/KNN_clustering)
+# [K-MEANS CLUSTERING MODEL](https://github.com/PhamMinhThuan/K_Means_clustering)
 
 ## PROJECT OVERVIEW
 
 * Use Advantureworks DW 2019 dataset, collecting customer feature from this dataset.
-* Create a KNN clustering model to define customer segments.
+* Create a K-Means clustering model to define customer segments.
 
 
 ## DATA MINING
