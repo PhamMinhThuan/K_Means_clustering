@@ -2,17 +2,17 @@
 
 ## PROJECT OVERVIEW
 
-* Use Advantureworks DW 2019 dataset, collecting customer feature from this dataset.
-* Create a K-Means clustering model to define customer segments.
-
+- Use Advantureworks DW 2019 dataset, collecting customer feature from this dataset.
+- Create a K-Means clustering model to define customer segments.
 
 ## DATASET OVERVIEW
 
-* Restore AdvantureWorksDW2019.bak file
-* Run file SQL, create SQL view
-* Use python connect SQL server and show SQL view table.
+- Restore AdvantureWorksDW2019.bak file
+- Run file SQL, create SQL view
+- Use python connect SQL server and show SQL view table.
 
 ## DATA CLEANING
+
 ### Check null and change data type <space><space>
 
 ![](/picture/1.PNG)
@@ -25,11 +25,13 @@
 
 Data from 2010-12-29 00:00:00 to 2014-01-28 00:00:00
 <space><space>
+
 ### Products number per orders <space><space>
 
 ![](/picture/3.PNG)
 
 ### Category <space><space>
+
 ![](/picture/4.PNG)
 
 ### Continent <space><space>
@@ -37,7 +39,7 @@ Data from 2010-12-29 00:00:00 to 2014-01-28 00:00:00
 ![](/picture/5.PNG)
 
 ![](/picture/6.PNG)
- 
+
 ### Coupon <space><space>
 
 ![](/picture/7.PNG)
@@ -47,7 +49,7 @@ Data from 2010-12-29 00:00:00 to 2014-01-28 00:00:00
 ![](/picture/7a.PNG)
 
 ### Customer feature table <space><space>
- 
+
 ![](/picture/7b.PNG)
 
 ### Age <space><space>
@@ -81,6 +83,7 @@ Overally, approximately 80 percent of customers are between 35 and 62 year old. 
 Binning Yearly Income into high medium low
 
 ## K-MEANS MODELLING
+
 ### A. North Ameria
 
 ![](/picture/12a.PNG)
@@ -97,7 +100,7 @@ Choose sqrt method sqrt <space><space>
 
 ![](/picture/12.PNG)
 
-boxcox  skewness -> min <space><space>
+boxcox skewness -> min <space><space>
 
 Choose boxcox method <space><space>
 
@@ -137,7 +140,7 @@ Choose sqrt method sqrt <space><space>
 
 ![](/picture/19.PNG)
 
-boxcox  skewness -> min <space><space>
+boxcox skewness -> min <space><space>
 
 Choose boxcox method <space><space>
 
@@ -177,7 +180,7 @@ Choose sqrt method sqrt <space><space>
 
 ![](/picture/25.PNG)
 
-boxcox  skewness -> min <space><space>
+boxcox skewness -> min <space><space>
 
 Choose boxcox method <space><space>
 
@@ -201,7 +204,7 @@ Choose boxcox method <space><space>
 
 ![](/picture/29.PNG)
 
-Monetary: 
+Monetary:
 
 0 - 1000: Low spending
 
@@ -209,7 +212,7 @@ Monetary:
 
 2000: High spending
 
-Frequency: 
+Frequency:
 
 1 - 2: Low frequency
 
@@ -217,32 +220,32 @@ Frequency:
 
 over 3: High frequency
 
-In Europe: 
+In Europe:
 
-2: Low income, low frequency,  high spending, customer churn
+2: Low income, low frequency, high spending, customer churn
 
 3: Low income, high frequency, medium spending
 
-1: Medium income, high frequency,  medium spending
+1: Medium income, high frequency, medium spending
 
-6: High income, high frequency,  medium spending
+6: High income, high frequency, medium spending
 
 In North America:
 
-2: Low income, low frequency,  high spending, customer churn
+2: Low income, low frequency, high spending, customer churn
 
 4: Low income, medium frequency, low spending
 
-1: Medium income, high frequency,  medium spending
+1: Medium income, high frequency, medium spending
 
-6: High income, high frequency,  medium spending
+6: High income, high frequency, medium spending
 
 In Pacific:
 
 2: Low income, low frequency, high spending, customer churn
 
-7: Low income, high frequency,  medium spending
+7: Low income, high frequency, medium spending
 
 5: Medium income, high frequency, high spending
 
-6: High income, high frequency,  high spending
+6: High income, high frequency, high spending
