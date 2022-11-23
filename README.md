@@ -150,7 +150,7 @@ Choose k = 3 <space><space>
 
 ### Skewness
 
-![](/picture/12.PNG)
+![](/picture/24.PNG)
 
 ### The Elbow Method
 
