@@ -88,29 +88,9 @@ Binning Yearly Income into high medium low
 
 ![](/picture/12a.PNG)
 
-### Recency skewness
-
-![](/picture/14.PNG)
-
-sqrt skewness -> min <space><space>
-
-Choose sqrt method sqrt <space><space>
-
-### Frequency skewness
+### Skewness
 
 ![](/picture/12.PNG)
-
-boxcox skewness -> min <space><space>
-
-Choose boxcox method <space><space>
-
-### Monetary skewness
-
-![](/picture/13.PNG)
-
-boxcox skewness -> min <space><space>
-
-Choose boxcox method <space><space>
 
 ### The Elbow Method
 
@@ -140,29 +120,9 @@ Choose k = 5 <space><space>
 
 ![](/picture/18a.PNG)
 
-### Recency skewness
+### Skewness
 
 ![](/picture/18.PNG)
-
-sqrt skewness -> min <space><space>
-
-Choose sqrt method sqrt <space><space>
-
-### Frequency skewness
-
-![](/picture/19.PNG)
-
-boxcox skewness -> min <space><space>
-
-Choose boxcox method <space><space>
-
-### Monetary skewness
-
-![](/picture/20.PNG)
-
-boxcox skewness -> min <space><space>
-
-Choose boxcox method <space><space>
 
 ### The Elbow Method
 
@@ -188,29 +148,9 @@ Choose k = 3 <space><space>
 
 ![](/picture/24a.PNG)
 
-### Recency skewness
+### Skewness
 
-![](/picture/24.PNG)
-
-sqrt skewness -> min <space><space>
-
-Choose sqrt method sqrt <space><space>
-
-### Frequency skewness
-
-![](/picture/25.PNG)
-
-boxcox skewness -> min <space><space>
-
-Choose boxcox method <space><space>
-
-### Monetary skewness
-
-![](/picture/26.PNG)
-
-boxcox skewness -> min <space><space>
-
-Choose boxcox method <space><space>
+![](/picture/12.PNG)
 
 ### The Elbow Method
 
